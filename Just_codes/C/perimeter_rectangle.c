@@ -9,7 +9,7 @@ int main(){
     printf("Enter a width: ");
     scanf("%f",&width);
 
-    // Using the formula for Rectangle
+    // Using the formula ford perimeter of a rectangle Rectangle
     rectangle =2*(length + width);
     printf("Perimeter of rectangle = %f units",rectangle);
     
