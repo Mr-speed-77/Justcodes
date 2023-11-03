@@ -1,6 +1,6 @@
 my_dict = dict()
 
-// update Student Details
+#update Student Details
 def update_details():
     while(True):
         choice = input("Do you give your detail [y/n]: ")
@@ -16,7 +16,7 @@ def update_details():
             print('Thanks for coming !')
             break;
 
-// show Our details
+# show Our details
 def show_details():
     Id = input("Enter your id: ")
     if Id in my_dict:
@@ -24,7 +24,7 @@ def show_details():
     else:
         print('Invalid Id')
 
-// choose that options
+# choose that options
 def choose():
     choice = input('1. update your details [1]\n2. see your detail [2]\n3. Exit [3]\nEnter Choice: ')
     if choice == '1':
@@ -38,5 +38,5 @@ def choose():
     else:
         print('Invalid input !')
 
-// Call the fuction
+# Call the fuction
 choose()
