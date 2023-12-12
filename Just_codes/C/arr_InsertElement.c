@@ -34,7 +34,8 @@ int main()
     
     arr[position] = value;
    
+    printf("After insert in the array: ");
     for(i=0; i<=limit; i++){
-        printf("%d\n", arr[i]);
+        printf("%d ", arr[i]);
     }
 }
