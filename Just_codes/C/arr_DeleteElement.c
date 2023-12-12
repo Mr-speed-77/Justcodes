@@ -30,12 +30,13 @@ int main()
     for(i=position; i<limit-1; i++){
         
         arr[i] = arr[i+1];
-        printf("arr[%d] = %d\narr[%d] = %d\n", i, arr[i], i+1, arr[i+1]);
     }
     
     limit--;
     
+    printf("After delete element in array: ");
+    
     for(i=0; i<limit; i++){
-        printf("%d\n", arr[i]);
+        printf("%d ", arr[i]);
     }
 }
