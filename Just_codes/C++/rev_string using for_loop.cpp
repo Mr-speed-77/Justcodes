@@ -12,8 +12,7 @@ int main(){
 
     
     for(int i=str_len-1; i>=0;i--){
-        
-        //cout << str[i];
+       
         rev_str+=str[i];
     }
     cout << endl;
